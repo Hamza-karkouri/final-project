@@ -1,0 +1,37 @@
+h3{
+font-size: 26px;
+font-weight: 600;
+}
+p{
+    color: #727272;
+}
+.nav-link{
+    outline: none;
+    border: none !important;
+    text-decoration: none;
+    color: #4b4b4b;
+    padding-inline: 0px !important;
+    border-radius: 0 !important;
+    font-weight: 600;
+    
+}
+.nav-link:active{
+    color: #ff9b08 !important;
+    border-right: 3px solid #ff9b08 !important ;
+}
+.nav-link:focus{
+    color: #ff9b08 !important;
+    border-right: 3px solid #ff9b08 !important ;
+}
+.special-texto{
+    text-align: center;
+    padding: 30px !important;
+}
+.col-2{
+    width: 15%;
+    padding-right: 15px;
+
+}
+.border-scroll{
+    border-right: 2px solid rgba(158, 158, 158, 0.596);
+}
