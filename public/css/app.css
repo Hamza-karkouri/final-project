@@ -11864,8 +11864,9 @@ body {
 
 .navbar2 {
   padding-top: 40px;
-  top: 20px !important;
+  top: 10x !important;
   padding-inline: 100px !important;
+  background-color: rgba(0, 0, 0, 0.205);
 }
 
 .nav-button {
@@ -12029,6 +12030,140 @@ h6,
     transform: translateY(0);
     opacity: 1;
   }
+}
+.button-costume {
+  width: 94px !important;
+  height: 94px !important;
+  border-radius: 80px !important;
+  background-color: #ffb03b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-costume {
+  width: 100px !important;
+  height: 100vh !important;
+}
+
+.cont-bg {
+  background-image: url(../../../../public/images/about.jpg);
+}
+
+.about-sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+.about-sec2 h3, .about-sec2 .h3 {
+  font-weight: 500;
+  font-size: 35px;
+  color: #5f5950;
+}
+.about-sec2 p {
+  color: #979797;
+}
+.about-sec2 ul {
+  list-style-type: none;
+}
+.about-sec2 ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.about-sec2 ul i {
+  color: #ffb03b;
+  font-size: 26px;
+}
+
+#btn-back-to-top {
+  background-color: #ffb03b;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  /* display: none; */
+  height: 45px;
+  border-radius: 40px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+#btn-back-to-top i {
+  color: white !important;
+}
+
+.section-title {
+  width: 41%;
+}
+.section-title h2, .section-title .h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #5f5950;
+}
+.section-title span {
+  text-align: center;
+  color: #ffb03b;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-title p {
+  text-align: center !important;
+  color: #727171;
+}
+
+.cont-box {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  transition: all 0.3s ease;
+  width: 90% !important;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  width: 80%;
+  transition: all 0.2s ease-in-out !important;
+}
+.box span {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffcf88;
+}
+.box h4, .box .h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: #6c665c;
+}
+.box p {
+  color: #aaaaaa;
+  font-size: 17px;
+}
+
+.gaps {
+  gap: 20px !important;
+}
+
+.cont-box:hover {
+  background-color: #ffb03b;
+}
+.cont-box:hover .box {
+  padding-bottom: 40px !important;
+}
+.cont-box:hover .box span {
+  color: white;
+}
+.cont-box:hover .box h4, .cont-box:hover .box .h4 {
+  color: white;
+}
+.cont-box:hover .box p {
+  color: white !important;
 }
 
 /*# sourceMappingURL=app.css.map */

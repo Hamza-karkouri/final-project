@@ -1,0 +1,161 @@
+.button-costume {
+
+    width: 94px !important;
+    height: 94px !important;
+    border-radius: 80px !important;
+    background-color: #ffb03b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-costume {
+    width: 100px !important;
+    height: 100vh !important;
+}
+
+.cont-bg {
+    background-image: url(../../../../public/images/about.jpg);
+}
+
+.about-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+
+    h3 {
+        font-weight: 500;
+        font-size: 35px;
+        color: #5f5950;
+    }
+
+    p {
+        color: #979797;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        i {
+            color: #ffb03b;
+            font-size: 26px;
+
+        }
+    }
+}
+
+#btn-back-to-top {
+    background-color: #ffb03b;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    /* display: none; */
+    height: 45px;
+    border-radius: 40px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        color: white !important;
+
+    }
+}
+
+
+
+.section-title {
+
+    width: 41%;
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: #5f5950
+    }
+
+    span {
+        text-align: center;
+        color: #ffb03b;
+
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p {
+        text-align: center !important;
+        color: #727171;
+    }
+}
+
+.cont-box{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 50px;
+    transition: all 0.3s ease;
+    width: 90% !important;
+    height: 300px;
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+   
+}
+.box {
+
+   
+   width: 80%;
+   transition: all 0.2s ease-in-out  !important;
+
+    span {
+        font-size: 30px;
+        font-weight: 800;
+        color: #ffcf88;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 0;
+        margin: 20px 0;
+        color: #6c665c;
+    }
+
+    p {
+        color: #aaaaaa;
+        font-size: 17px;
+    }
+}
+
+.gaps {
+    gap: 20px !important;
+}
+.cont-box:hover{
+    background-color: #ffb03b;
+
+    .box{
+        padding-bottom: 40px !important;
+       
+
+        span {
+        color: white;
+    }
+
+        h4 {
+        color: white;
+    }
+
+        p {
+        color: white !important;
+    }
+
+}
+}
