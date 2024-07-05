@@ -12398,4 +12398,27 @@ h3, .h3 {
   height: 70vh;
 }
 
+.footer .social-icons a {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+  background-color: #5b564d;
+  padding: 10px 13px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+@media (max-width: 480px) {
+  .navbar2 {
+    background-color: rgba(255, 255, 255, 0.933);
+  }
+  .nav-link {
+    color: black !important;
+    font-size: 20px;
+  }
+  .logo h1 a, .logo .h1 a {
+    color: black !important;
+    font-size: 50px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
