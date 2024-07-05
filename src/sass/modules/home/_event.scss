@@ -1,0 +1,67 @@
+.indicator{
+    
+    width: 20px !important;
+    height: 20px !important;
+    
+    /* text-indent: -999px; */
+    cursor: pointer;
+    background-color: #eca337 !important;
+    /* background-clip: padding-box; */
+    border: 0;
+ 
+    border-radius: 50% !important ;
+}
+
+.fixed-back{
+
+    
+    
+     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../../public/images/events-bg.jpg');
+
+    
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.slid-number22{
+    text-align: start !important;
+    h3{
+        color: #ffb03b;
+        font-size: 30px;
+        font-weight: 600;
+      
+    }
+    p{
+        font-size: 17px;
+        font-weight: 600; 
+    }
+}
+
+.price{
+    span{
+        border-bottom: 2px solid #ffb03b;
+        font-size: 27px;
+        font-weight: 600;
+    }
+}
+.slide-li-event{
+    list-style-type: none;
+    padding: 0px !important;
+    li{
+        i{
+            color: #ffb03b !important;
+            font-size: 20px;
+        }
+    }
+}
+.idk{
+    height: 10%;
+    padding-top: 50px;
+}
+.idk-event{
+    color: white;
+    align-items: center !important;
+}
