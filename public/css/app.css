@@ -12207,6 +12207,17 @@ h2 span, .h2 span {
   padding-inline: 80px !important;
 }
 
+.rino {
+  padding: 5px 8px;
+  background-color: #ffbb55;
+  border-radius: 50px;
+}
+
+.rino1 {
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 17px 4px #f6f6f6;
+}
+
 h3, .h3 {
   font-size: 26px;
   font-weight: 600;
